@@ -12,7 +12,6 @@ ADD . /
 
 RUN npm install
 
-WORKDIR /
 
 EXPOSE 8080
 

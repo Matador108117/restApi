@@ -8,11 +8,11 @@ RUN curl -sL https://deb.nodesource.com/setup_20.x | bash -
 
 RUN apt-get install -y nodejs
 
-ADD package.json /package.json
+ADD . /
 
 RUN npm install
 
-WORKDIR /src
+WORKDIR /
 
 EXPOSE 8080
 

@@ -30,7 +30,13 @@ const getAllUsers = async (req, res) => {
 	}
 
 };
+
+const deleteUser = async (req,res ) =>{
+         
+
+}
 module.exports = {
 getAllUsers,
-createUser
+createUser,
+deleteUser
 };

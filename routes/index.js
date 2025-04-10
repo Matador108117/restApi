@@ -8,4 +8,4 @@ router.post('/users', controllers.createUser)
 router.get('/users', controllers.getAllUsers)
 
 module.exports = router;
-//s
+//g
